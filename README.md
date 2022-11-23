@@ -30,13 +30,12 @@ jbang hello-optnc
 
 ou directement
 ```shell
-jbang  hello-optnc@opt-nc/jbang-catalog
+jbang  hello-optnc@opt-nc
 ```
 
 Enfin, pour rester à jour des ajouts de la communauté, mettre à jour le cache :
 
 ```shell
-jbang cache clear
-jbang  hello-optnc@opt-nc/jbang-catalog
+jbang --fresh hello-optnc@opt-nc
 ```
 
